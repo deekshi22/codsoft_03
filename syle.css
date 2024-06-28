@@ -1,0 +1,52 @@
+
+body{
+    width:90%;
+    height:100h;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffff
+    
+    
+    
+}
+.calculator{
+    border: 1px solid; 
+    padding: 20px;
+    border-radius:16px;
+    background-color:rgba(0, 0, 0, 0.405)
+    
+    
+}
+input{
+    width: 345px;
+    border:0cap;
+    padding:24px;
+    margin: 10px;
+    
+    font-size:30px;
+    text-align: right;
+    cursor:pointer;
+    
+}
+input::placeholder{
+    color:black;
+}
+button{
+    border:none;
+    
+    width:60px;
+    height:60px;
+    margin:20px;
+    border: radius 50px;
+    
+    font-size:27px; 
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+.equalBtn{
+       background-color: orange;
+}
+
+
